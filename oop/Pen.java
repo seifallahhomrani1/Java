@@ -6,13 +6,13 @@ public class Pen {
     int point = 10; 
 
 
-    static boolean clicked = false; 
+    boolean clicked = false; 
     
-    public static void click(){
+    public  void click(){
         clicked = true;
     }
 
-    public static void unclick() {
+    public  void unclick() {
         clicked = false;
     }
     
